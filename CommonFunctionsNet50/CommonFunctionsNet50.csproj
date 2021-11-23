@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Ricompany.CommonFunctions</RootNamespace>
+    <PackageId>Ricompany.CommonFunctions</PackageId>
+    <Version>1.1.0</Version>
+    <Company>Research Inc.</Company>
+    <Authors>Research Inc.</Authors>
+    <Description>Package of general-purpose functions used in our projects</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IsPublishable>True</IsPublishable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Logger.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".editorconfig" />
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+    <None Remove="CommonFunctions.nuspec" />
+    <None Remove="packit.bat" />
+    <None Remove="ResearchInc.CommonFunctions.1.0.0.nupkg" />
+    <None Remove="ResearchInc.CommonFunctions.1.0.1.nupkg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\data\Units\A200--PROJECTS\BA\Develop\RI\CommonFunctions\ActualVersion\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>

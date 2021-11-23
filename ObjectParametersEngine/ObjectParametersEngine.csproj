@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RootNamespace>Ricompany.ObjectParametersEngine</RootNamespace>
+    <PackageId>Ricompany.ObjectParametersEngine</PackageId>
+    <Authors>Research Inc.</Authors>
+    <Company>Research Inc.</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ricompany.CommonFunctions" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
