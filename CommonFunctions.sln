@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateMachine", "StateMachin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonFunctionsWinForms", "CommonFunctionsWinForms\CommonFunctionsWinForms.csproj", "{CE7A0EA6-5F5C-49BB-B61D-B9FD71CFF57B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlValueSaver", "ControlValueSaver\ControlValueSaver.csproj", "{6F31A82F-ECB8-4A26-B41B-AE628943BF3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{CE7A0EA6-5F5C-49BB-B61D-B9FD71CFF57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE7A0EA6-5F5C-49BB-B61D-B9FD71CFF57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE7A0EA6-5F5C-49BB-B61D-B9FD71CFF57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F31A82F-ECB8-4A26-B41B-AE628943BF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F31A82F-ECB8-4A26-B41B-AE628943BF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F31A82F-ECB8-4A26-B41B-AE628943BF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F31A82F-ECB8-4A26-B41B-AE628943BF3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{F3F9B694-4153-4080-ACB5-8DE71DE423E9} = {192A60A0-8ACC-4571-BC0E-59F57E25492B}
 		{FDD64376-C85D-4514-9621-2AB7FA93C845} = {192A60A0-8ACC-4571-BC0E-59F57E25492B}
 		{CE7A0EA6-5F5C-49BB-B61D-B9FD71CFF57B} = {192A60A0-8ACC-4571-BC0E-59F57E25492B}
+		{6F31A82F-ECB8-4A26-B41B-AE628943BF3F} = {192A60A0-8ACC-4571-BC0E-59F57E25492B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40F33EFB-B2F4-45CD-A132-D201E664EC8C}

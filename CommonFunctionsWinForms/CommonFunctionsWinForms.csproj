@@ -5,4 +5,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CommonFunctionsNet50\CommonFunctionsNet50.csproj" />
+  </ItemGroup>
+
 </Project>

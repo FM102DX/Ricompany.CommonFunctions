@@ -10,7 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ricompany.ObjectParametersEngine" Version="1.0.0" />
+    <ProjectReference Include="..\CommonFunctionsNet50\CommonFunctionsNet50.csproj" />
+    <ProjectReference Include="..\ObjectParametersEngine\ObjectParametersEngine.csproj" />
   </ItemGroup>
 
 </Project>
